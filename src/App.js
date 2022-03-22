@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles/App.css";
 import contractAbi from "./utils/contractABI.json";
 import twitterLogo from "./assets/twitter-logo.svg";
-import { ethers } from "ethers";
+import { ethers } from "ether.js";
 
 // Constants
 const TWITTER_HANDLE = "ohhkaneda";
